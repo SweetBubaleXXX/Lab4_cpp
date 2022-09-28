@@ -27,6 +27,8 @@ int main() {
         cout << "[" << i << "]: " << userArray[i] << endl;
     }
 
+    delete[] userArray;
+
     return 0;
 }
 
